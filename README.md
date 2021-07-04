@@ -74,8 +74,3 @@ You need to edit the .bat file to assign your values to the appropriate variable
 
    <br />The <b>Windows + R</b> will show you the "RUN" box where you can type <b>shell:startup</b> and the autostart
    folder will open. Here you can place the .bat file.
-   
-
-
-
-
