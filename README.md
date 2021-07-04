@@ -30,11 +30,13 @@ system startup
 
 ## How does it work? - presentation
 
-10 threads launched by pressing 2
-![]("screenshots/launched_by_2.gif")
+10 threads launched after pressing '2' on the keyboard
 
-12 threads launched when countdown was done
-![]("screenshots/launched_by_countdown.gif")
+![](screenshots/launched_by_2.gif)
+
+12 threads launched when the  countdown was done
+
+![](screenshots/launched_by_countdown.gif)
 
 ## Configuration
 
