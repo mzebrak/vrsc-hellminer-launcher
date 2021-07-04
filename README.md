@@ -13,7 +13,7 @@ someone.
 1. [What is it for?](#what-is-it-for)
 2. [How does it work? - presentation](#how-does-it-work---presentation)
 3. [Configuration](#configuration)
-4. [Running](#runnig)
+4. [Running](#running)
 
 ## What is it for?
 
@@ -30,9 +30,11 @@ system startup
 
 ## How does it work? - presentation
 
-![]("gif")
+10 threads launched by pressing 2
+![]("screenshots/launched_by_2.gif")
 
-![]("gif2")
+12 threads launched when countdown was done
+![]("screenshots/launched_by_countdown.gif")
 
 ## Configuration
 
