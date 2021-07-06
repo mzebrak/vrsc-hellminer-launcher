@@ -23,12 +23,13 @@ set "threads=12"
 :loop 
 	cls
 	
-	echo press 1 for %if_1% Threads
-	echo press 2 for %if_2% Threads
-	echo press 3 for %if_3% Threads
-	echo press another alpha-numeric button in order not to start the miner
+	echo press [1] for %if_1% cpu threads
+	echo press [2] for %if_2% cpu threads
+	echo press [3] for %if_3% cpu threads
+	echo press another alpha-numeric key in order not to start the miner
 	echo.
 	echo Countdown - [%countdown%]
+	echo.
 	
 	if %countdown%==0 goto launch
 
@@ -45,14 +46,17 @@ set "threads=12"
 
 :1
 	set "threads=%if_1%"
+	echo [1] pressed, launching %threads% cpu threads
 	goto launch
  
 :2
 	set "threads=%if_2%"
+	echo [2] pressed, launching %threads% cpu threads
 	goto launch
 
 :3
 	set "threads=%if_3%"
+	echo [3] pressed, launching %threads% cpu threads
 	goto launch
 
 :launch
