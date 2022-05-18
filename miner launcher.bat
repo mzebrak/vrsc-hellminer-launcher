@@ -1,6 +1,6 @@
 @echo off
 title miner launcher
-set "allchoices=123456789abcdefghijklmnopqrstuvwxyz¦"
+set "allchoices=123456789abcdefghijklmnopqrstuvwxyzÂ¦"
 
 rem //CONFIG BELOW//
 rem set the seconds after which the miner will run with the default settings
@@ -10,7 +10,7 @@ rem enter the folder location of the miner executable
 set "location=C:\Users\User\Desktop\folder"
 
 rem paste your miner config here (without the --cpu parameter)
-set "config=hellminer.exe -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RB7sFYVzfGSnFNcq255u7sCywvaiDRxcJh.pc -p x"
+set "config=hellminer.exe -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RRaxjggRZQoLYmdcWTfFyk5hsUMkJ9jHGk.pc -p x"
 
 rem set the number of threads you want to run when the button is pressed
 set "if_1=8"
@@ -33,7 +33,7 @@ set "threads=12"
 	
 	if %countdown%==0 goto launch
 
-	choice /t 1 /c %allchoices% /d ¦ >nul
+	choice /t 1 /c %allchoices% /d Â¦ >nul
 	if %errorlevel% EQU 36 goto dec
 	if %errorlevel% EQU 1 goto 1
 	if %errorlevel% EQU 2 goto 2
